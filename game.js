@@ -64,7 +64,3 @@ function animatePress(currentColour){
         $("#" + currentColour).removeClass("pressed");
     }, 100);
 }
-
-// Event Detection when a key is pressed
-
-$(document).keypress(nextSequence);
