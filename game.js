@@ -18,7 +18,7 @@ $(".btn").click(function() {
   
   });
 
-//You'll need a way to keep track of whether if the game has started or not, so you only call nextSequence() on the first keypress.
+//You will need a way to keep track of whether if the game has started or not, so you only call nextSequence() on the first keypress.
 var started = false;
 
 //2. Create a new variable called level and start at level 0.
