@@ -7,6 +7,7 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
+//1st feature "press"
 $(document).keypress(function() {
   if (!started) {
     $("#level-title").text("Level " + level);
@@ -15,6 +16,7 @@ $(document).keypress(function() {
   }
 });
 
+//2nd feature "click"
 $(".btn").click(function() {
 
   var userChosenColour = $(this).attr("id");
