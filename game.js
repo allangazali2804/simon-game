@@ -43,7 +43,7 @@ function nextSequence() {
   $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
   playSound(randomChosenColour);
 }
-//1. Create a new function called checkAnswer(), it should take one input with the name currentLevel
+//1. Create a new function called checkAnswer(), it should take one input with the name currentLevel.
 function checkAnswer(currentLevel) {
 
     //3. Write an if statement inside checkAnswer() to check if the most recent user answer is the same as the game pattern. If so then log "success", otherwise log "wrong".
